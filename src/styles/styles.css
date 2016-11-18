@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Luminari', cursive, serif;
+}
+
+h2, .center-in-viewport {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.center-inside-parent {
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+}
+
+.keep-it-realistic {
+  width: 700px;
+  height: none;
+}
+
+.bottom-pic-zone {
+  position: absolute;
+  left: 0;
+  /*right: 0%;*/
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  margin-right: 0;
+  /*display:*/
+}
+
+.honey-to-water-gradient {
+  background: gold; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(gold, cornsilk); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gold, cornsilk); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gold, cornsilk); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gold, cornsilk); /* Standard syntax */
+}
