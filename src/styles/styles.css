@@ -40,11 +40,22 @@ h2, .center-in-viewport {
   margin-right: 0;
   /*display:*/
 }
-
 .honey-to-water-gradient {
   background: gold; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(gold, cornsilk); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(gold, cornsilk); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(gold, cornsilk); /* For Firefox 3.6 to 15 */
     background: linear-gradient(gold, cornsilk); /* Standard syntax */
+}
+
+.hipsum_text {
+  position: relative;
+  float: right;
+  clear: right;
+}
+div p::first-line {
+  color: red;
+}
+div p {
+  padding-top: 120px;
 }
