@@ -10,7 +10,9 @@
 body {
   font-family: 'Luminari', cursive, serif;
 }
-
+div img {
+  z-index: 0;
+}
 h2, .center-in-viewport {
   position: absolute;
   top: 50%;
@@ -18,7 +20,10 @@ h2, .center-in-viewport {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
-
+div p {
+  position: relative;
+  z-index: 10;
+}
 .center-inside-parent {
   position: relative;
   left: 50%;
