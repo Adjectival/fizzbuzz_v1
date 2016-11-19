@@ -13,12 +13,19 @@ body {
 div img {
   z-index: 0;
 }
-h2, .center-in-viewport {
+.center-absolutely-in-parent {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
+  /*margin-right: -50%;*/
   transform: translate(-50%, -50%)
+}
+h1 {
+  text-decoration: none;
+  text-shadow: 2px 2px 20px white,
+  -2px -2px 20px white,
+  -2px 2px 20px white,
+  2px -2px 20px white;
 }
 div p {
   position: relative;
@@ -46,21 +53,36 @@ div p {
   /*display:*/
 }
 .honey-to-water-gradient {
-  background: gold; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(gold, cornsilk); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(gold, cornsilk); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(gold, cornsilk); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(gold, cornsilk); /* Standard syntax */
+  background: cornsilk; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(gold, cornsilk, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gold, cornsilk, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gold, cornsilk, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gold, cornsilk, white); /* Standard syntax */
+}
+.water-to-honey-gradient {
+  background: cornsilk; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, cornsilk, gold); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, cornsilk, gold); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, cornsilk, gold); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, cornsilk, gold); /* Standard syntax */
+}
+.water-and-honey-gradient {
+  background: cornsilk; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* Standard syntax */
 }
 
 .hipsum_text {
   position: relative;
-  float: right;
-  clear: right;
+}
+div p {
+  padding-top: 20px;
+  font-style: italic;
 }
 div p::first-line {
   color: red;
-}
-div p {
-  padding-top: 120px;
+  font-style: normal;
+  font-size: 1.2em;
 }
