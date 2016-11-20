@@ -12,59 +12,77 @@ body {
 }
 div img {
   z-index: 0;
-}
-.center-absolutely-in-parent {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /*margin-right: -50%;*/
-  transform: translate(-50%, -50%)
+  border-radius: 55px;
+  border: red  5px;
 }
 h1 {
   text-decoration: none;
   text-align: center;
-  text-shadow: 2px 2px 20px gold,
+  text-shadow: 2px 2px 10px gold,
   -2px -2px 20px gold,
-  -2px 2px 20px gold,
-  2px -2px 20px gold;
-}
-div img {
-  border-radius: 55px;
-  border: red  5px;
+  -2px 2px 20px red,
+  2px -2px 10px red;
 }
 div p {
   position: relative;
   z-index: 10;
 }
-.center-inside-parent {
+/*general pos classes*/
+/*.center-inside-parent {
   position: relative;
   left: 50%;
   margin-right: -50%;
+}*/
+.center-absolutely-in-parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
-
 .keep-it-realistic {
   width: 700px;
   height: none;
 }
-
-.bottom-pic-zone {
-  position: absolute;
-  left: 0;
-  /*right: 0%;*/
-  bottom: 0;
+/*specific page areas*/
+.top_link_zone {
+  position: fixed;
   height: 20%;
+  top: 40px;
+}
+/*.main_div {
+  /*height: 70%;
   width: 100%;
-
+}*/
+.bottom_pic_zone {
+  position: fixed;
+  bottom: 15px;
+  height: 20%;
+  border: red solid 2px;
 }
-.bottom-below-pics {
-  position: absolute;
-  left: 0;
-  /*right: 0%;*/
-  bottom: 0;
+/*.bottom_below_pics {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
   background: gold;
-  clear: left;
+}*/
+
+
+div p {
+  padding-top: 20px;
+  font-style: italic;
 }
 
+div p::first-line {
+  color: red;
+  font-style: normal;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 5px orange,
+  -2px -2px 5px orange,
+  -2px 2px 5px orange,
+  2px -2px 5px orange;
+}
+/*gradients*/
 .honey-to-water-gradient {
   background: cornsilk; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(gold, cornsilk, white); /* For Safari 5.1 to 6.0 */
@@ -85,26 +103,4 @@ div p {
     background: -o-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Firefox 3.6 to 15 */
     background: linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* Standard syntax */
-}
-
-.main_div {
-  height: 70%;
-  width: 100%;
-}
-
-.hipsum_text {
-  position: relative;
-}
-div p {
-  padding-top: 20px;
-  font-style: italic;
-}
-div p::first-line {
-  color: red;
-  font-style: normal;
-  font-size: 1.2em;
-  text-shadow: 2px 2px 5px navy,
-  -2px -2px 5px navy,
-  -2px 2px 5px navy,
-  2px -2px 5px navy;
 }
