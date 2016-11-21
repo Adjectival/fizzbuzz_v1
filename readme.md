@@ -2,6 +2,8 @@
 ## _a demo product website_
 ### by _Alexander Jacks_
 
+
+![screenshot](/resources/fbv10.png)
 ### Description
 A technical demonstration of CSS3 positioning and arrangement-- no Flexbox styling used.
 
