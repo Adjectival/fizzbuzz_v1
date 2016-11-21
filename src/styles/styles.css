@@ -18,10 +18,11 @@ div img {
 h1 {
   text-decoration: none;
   text-align: center;
-  text-shadow: 2px 2px 10px gold,
-  -2px -2px 20px gold,
-  -2px 2px 20px red,
-  2px -2px 10px red;
+  text-shadow:
+  4px 4px 10px gold,
+  -4px -4px 20px gold,
+  -4px 4px 20px red,
+  4px -4px 10px red;
 }
 div p {
   position: relative;
@@ -40,15 +41,26 @@ div p {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+.center-fixed-in-viewport {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.center-content-normally {
+  align-content: center;
+}
 .keep-it-realistic {
-  width: 700px;
+  width: 500px;
   height: none;
 }
 /*specific page areas*/
 .top_link_zone {
   position: fixed;
   height: 20%;
-  top: 40px;
+  width: 100%;
+  top: 0px;
 }
 /*.main_div {
   /*height: 70%;
@@ -58,6 +70,7 @@ div p {
   position: fixed;
   bottom: 15px;
   height: 20%;
+  width: 100%;
   border: red solid 2px;
 }
 /*.bottom_below_pics {
