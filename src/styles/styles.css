@@ -61,7 +61,6 @@ h2 {
   bottom: 0px;
   height: 20%;
   width: 100%;
-  border: red solid 2px;
 }
 /*quadrants in the bottom_pic_zone*/
 
@@ -85,24 +84,17 @@ h2 {
   2px -2px 5px orange;
 }
 /*gradients*/
-.honey-to-water-gradient {
+.top-gradient {
   background: cornsilk; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(gold, cornsilk, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(gold, cornsilk, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(gold, cornsilk, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(gold, cornsilk, white); /* Standard syntax */
+    background: -webkit-linear-gradient(DarkOrange, orange, khaki, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(DarkOrange, orange, khaki, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(DarkOrange, orange, khaki, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(DarkOrange, orange, khaki, white); /* Standard syntax */
 }
-.water-to-honey-gradient {
+.bottom-gradient {
   background: cornsilk; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, cornsilk, gold); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, cornsilk, gold); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, cornsilk, gold); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, cornsilk, gold); /* Standard syntax */
-}
-.water-and-honey-gradient {
-  background: cornsilk; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk, gold, cornsilk); /* Standard syntax */
+    background: -webkit-linear-gradientcornsilk, (cornsilk, khaki, GreenYellow, SeaGreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(cornsilk, khaki, GreenYellow, SeaGreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(cornsilk, khaki, GreenYellow, SeaGreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(cornsilk, khaki, GreenYellow, SeaGreen); /* Standard syntax */
 }
