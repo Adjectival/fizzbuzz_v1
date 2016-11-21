@@ -1,5 +1,5 @@
 # FizzBuzz v1.0 :honeybee::beer::chart_with_upwards_trend:
-## _a demo product website _
+## _a demo product website_
 ### by _Alexander Jacks_
 
 ### Description
