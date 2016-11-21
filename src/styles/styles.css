@@ -10,12 +10,7 @@
 body {
   font-family: 'Luminari', cursive, serif;
 }
-div img {
-  z-index: 0;
-  /*border: 10px solid red;*/
-  border-radius: 55px;
-}
-h1 {
+h1, h2 {
   text-decoration: none;
   text-align: center;
   text-shadow:
@@ -24,7 +19,6 @@ h1 {
   -4px 4px 20px red,
   4px -4px 10px red;
 }
-
 
 /*centering classes*/
 .center-within-me {
@@ -56,10 +50,23 @@ h1 {
 /*specific page zones*/
 .top_link_zone {
   position: fixed;
-  height: 20%;
+  height: 40%;
   width: 100%;
   top: 0px;
   z-index: 0;
+}
+.top_link_image {
+  padding-top: 5%;
+  margin-left: 2%;
+  width: 22%;
+  background-color: DarkOrange;
+  float: left;
+  z-index: 0;
+  border-radius: 100px;
+}
+.keep-it-tricky-sized {
+  width: 150px;
+  height: none;
 }
 .bottom_pic_zone {
   position: fixed;
@@ -69,7 +76,6 @@ h1 {
   z-index: 0;
 }
 /*quadrants in the bottom_pic_zone*/
-
 /*filler text*/
 .hipsum-filler {
   font-style: italic;
@@ -79,7 +85,6 @@ h1 {
   float: left;
   z-index: 0;
 }
-
 .hipsum-filler::first-line {
   color: red;
   font-style: normal;
