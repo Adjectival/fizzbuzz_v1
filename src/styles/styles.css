@@ -24,16 +24,20 @@ h1 {
   -4px 4px 20px red,
   4px -4px 10px red;
 }
-h2 {
-  z-index: 3;
-  width: auto;
-}
+
 
 /*centering classes*/
 .center-within-me {
   position: relative;
 }
-.center-me-plz {
+.center-and-valign-me-plz {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.center-chunk-me-plz {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
@@ -55,12 +59,14 @@ h2 {
   height: 20%;
   width: 100%;
   top: 0px;
+  z-index: 0;
 }
 .bottom_pic_zone {
   position: fixed;
   bottom: 0px;
   height: 20%;
   width: 100%;
+  z-index: 0;
 }
 /*quadrants in the bottom_pic_zone*/
 
