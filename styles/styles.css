@@ -9,6 +9,9 @@
 }
 body {
   font-family: 'Luminari', cursive, serif;
+  background: url('../resources/kombucha_rainbow.png');
+  background-position: top center;
+  background-size: 100%;
 }
 h1, h2 {
   text-decoration: none;
